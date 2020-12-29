@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /PHPMVCFramework/
+
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+
+RewriteRule ^((?!public/).*)$ public/index.php [L,NC]
+<FilesMatch "composer.json">
+	Order allow,deny
+	Deny from all
+</FilesMatch>

@@ -1,0 +1,15 @@
+{
+    "name": "yasser/phpmvc-framework",
+    "authors": [
+        {
+            "name": "YassSoliman",
+            "email": "soliman.yasser@hotmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
