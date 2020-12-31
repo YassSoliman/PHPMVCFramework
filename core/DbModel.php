@@ -8,6 +8,8 @@ abstract class DbModel extends Model
 
 	abstract public function attributes(): array;
 
+	abstract public function primaryKey(): string;
+
 	public function save()
 	{
 		$tableName = $this->tableName();
@@ -23,6 +25,23 @@ abstract class DbModel extends Model
 
 		$statement->execute();
 		return true;
+	}
+
+	public function findOne($where)
+	{
+		$className = static::class;
+		$tableName = (new $className())->tableName();
+		$attributes = array_keys($where);
+		// email = :email AND firstName = :firstName;
+		$sql = "SELECT * FROM $tableName WHERE " . implode("AND ", array_map(fn($attr) => "$attr = :$attr", $attributes));
+		$statement = self::prepare($sql);
+		foreach ($where as $key => $item) 
+		{
+			$statement->bindValue(":$key", $item);
+		}
+
+		$statement->execute();
+		return $statement->fetchObject($className);
 	}
 
 	public static function prepare($sql)
