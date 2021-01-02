@@ -469,12 +469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/YassSoliman/php-mvc-core.git",
-                "reference": "d6c108a78772225131924affa39a019d0679a1d5"
+                "reference": "948ce1a1d4ffa437475d865f9eb82256803311c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/YassSoliman/php-mvc-core/zipball/d6c108a78772225131924affa39a019d0679a1d5",
-                "reference": "d6c108a78772225131924affa39a019d0679a1d5",
+                "url": "https://api.github.com/repos/YassSoliman/php-mvc-core/zipball/948ce1a1d4ffa437475d865f9eb82256803311c3",
+                "reference": "948ce1a1d4ffa437475d865f9eb82256803311c3",
                 "shasum": ""
             },
             "default-branch": true,
@@ -493,9 +493,9 @@
             ],
             "support": {
                 "issues": "https://github.com/YassSoliman/php-mvc-core/issues",
-                "source": "https://github.com/YassSoliman/php-mvc-core/tree/v1.0.3"
+                "source": "https://github.com/YassSoliman/php-mvc-core/tree/v1.0.4"
             },
-            "time": "2021-01-02T21:21:19+00:00"
+            "time": "2021-01-02T22:00:26+00:00"
         }
     ],
     "packages-dev": [],
