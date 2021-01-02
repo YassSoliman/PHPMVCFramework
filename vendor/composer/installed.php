@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4ddead4156c272ae88b3a4e84e67a39f1264e3ac',
+    'reference' => '8bc53b00e01ecb3a4d10d8409c42cfc9d94aba86',
     'name' => 'yasser/phpmvc-framework',
   ),
   'versions' => 
@@ -72,7 +72,17 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4ddead4156c272ae88b3a4e84e67a39f1264e3ac',
+      'reference' => '8bc53b00e01ecb3a4d10d8409c42cfc9d94aba86',
+    ),
+    'yassersoliman/php-mvc-core' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => 'd6c108a78772225131924affa39a019d0679a1d5',
     ),
   ),
 );

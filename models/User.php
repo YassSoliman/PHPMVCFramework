@@ -1,7 +1,7 @@
 <?php
 
 namespace app\models;
-use app\core\UserModel;
+use yassersoliman\phpmvc\UserModel;
 
 class User extends UserModel
 {

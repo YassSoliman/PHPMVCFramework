@@ -1,8 +1,8 @@
 <?php
 $this->title = 'Contact';
 
-use app\core\form\Form;
-use app\core\form\TextareaField;
+use yassersoliman\phpmvc\form\Form;
+use yassersoliman\phpmvc\form\TextareaField;
 ?>
   
 <h1>Contact</h1>

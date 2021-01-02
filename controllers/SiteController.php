@@ -1,10 +1,10 @@
 <?php
 
 namespace app\controllers;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Application;
-use app\core\Response;
+use yassersoliman\phpmvc\Controller;
+use yassersoliman\phpmvc\Request;
+use yassersoliman\phpmvc\Application;
+use yassersoliman\phpmvc\Response;
 use app\models\ContactForm;
 
 class SiteController extends Controller

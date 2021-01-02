@@ -474,6 +474,43 @@
                 }
             ],
             "install-path": "../vlucas/phpdotenv"
+        },
+        {
+            "name": "yassersoliman/php-mvc-core",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YassSoliman/php-mvc-core.git",
+                "reference": "d6c108a78772225131924affa39a019d0679a1d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YassSoliman/php-mvc-core/zipball/d6c108a78772225131924affa39a019d0679a1d5",
+                "reference": "d6c108a78772225131924affa39a019d0679a1d5",
+                "shasum": ""
+            },
+            "time": "2021-01-02T21:21:19+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "yassersoliman\\phpmvc\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "YassSoliman",
+                    "email": "yassersoliman_1@hotmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/YassSoliman/php-mvc-core/issues",
+                "source": "https://github.com/YassSoliman/php-mvc-core/tree/v1.0.3"
+            },
+            "install-path": "../yassersoliman/php-mvc-core"
         }
     ],
     "dev": true,

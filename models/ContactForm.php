@@ -1,7 +1,7 @@
 <?php
 
 namespace app\models;
-use app\core\Model;
+use yassersoliman\phpmvc\Model;
 
 class ContactForm extends Model
 {

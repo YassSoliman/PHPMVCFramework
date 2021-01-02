@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a3fb087471037bc5f2b2b32ebe6307d",
+    "content-hash": "7d1bef7c9035419840d6b6a86202b713",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -462,12 +462,48 @@
                 }
             ],
             "time": "2020-09-14T15:57:31+00:00"
+        },
+        {
+            "name": "yassersoliman/php-mvc-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YassSoliman/php-mvc-core.git",
+                "reference": "d6c108a78772225131924affa39a019d0679a1d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YassSoliman/php-mvc-core/zipball/d6c108a78772225131924affa39a019d0679a1d5",
+                "reference": "d6c108a78772225131924affa39a019d0679a1d5",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yassersoliman\\phpmvc\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "YassSoliman",
+                    "email": "yassersoliman_1@hotmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/YassSoliman/php-mvc-core/issues",
+                "source": "https://github.com/YassSoliman/php-mvc-core/tree/v1.0.3"
+            },
+            "time": "2021-01-02T21:21:19+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "yassersoliman/php-mvc-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
