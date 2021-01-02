@@ -1,6 +1,8 @@
 <?php
 
-namespace app\core;
+namespace app\core\db;
+use app\core\Model;
+use app\core\Application;
 
 abstract class DbModel extends Model
 {
@@ -9,6 +11,8 @@ abstract class DbModel extends Model
 	abstract public function attributes(): array;
 
 	abstract public function primaryKey(): string;
+
+	abstract public function getDisplayName(): string;
 
 	public function save()
 	{

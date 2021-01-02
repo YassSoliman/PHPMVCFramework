@@ -2,6 +2,7 @@
 /** @var $model \app\models\User */
 use app\core\form\Form;
 
+$this->title = 'Register';
 ?>
   
 <h1>Create an account</h1>
